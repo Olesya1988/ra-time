@@ -3,12 +3,12 @@ import { DateTimePrettier } from "./DateTimePrettier";
 
 const DateTimePretty = DateTimePrettier(DateTime);
 
-export type TListItem = {
+export type ListItem = {
   url: string;
   date: string;
 };
 
-export const Video = ({ url, date }: TListItem) => {
+export const Video = ({ url, date }: ListItem) => {
   return (
     <div className="video">
       <iframe
